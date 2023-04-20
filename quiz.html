@@ -1,0 +1,39 @@
+<html>
+    <ul id="menu">
+        <li class="menu-item"><a href="index.html">Home</a></li>
+        <li class="menu-item"><a href="Story.html">Story</a></li>
+        <li class="menu-item" id="active"><a href="quiz.html">Quiz</a></li>
+    </ul>
+
+    <form name = "Quiz">
+        <label for="name">Enter Your Name</label><input type = "text" name="name" size="30">
+
+        <p>What is the Captial of England </p>
+        <input type="radio" name="growth" value="London">
+        <label for="London">London</label>
+        <input type="radio" name="growth" value="Manchester">
+        <label for="Manchester">Manchester</label>
+        <input type="radio" name="growth" value="Sheffield">
+        <label for="Sheffield">Sheffield</label>
+        
+        <br>
+        <p>What is the Captial of Italy</p>
+        <input type="radio" name="talent" value="Milan">
+        <label for="Milan">Milan</label>
+        <input type="radio" name="talent" value="Rome">
+        <label for="Rome">Rome</label>
+        <input type="radio" name="talent" value="Naples">
+        <label for="Naples">Naples</label>
+
+        <p>What is the Captial of Spain</p>
+        <input type="radio" name="growth" value="Barcalona">
+        <label for="Barcalona">Barcalona</label>
+        <input type="radio" name="growth" value="Santander">
+        <label for="Santander">Santander</label>
+        <input type="radio" name="growth" value="Madrid">
+        <label for="Madrid">Madrid</label>
+    </form>
+    <button type="button" onclick="checkAnswer();">Submit</button>
+
+    <script src="script.js"></script>
+</html>
